@@ -1,0 +1,59 @@
+.forecastContainer {
+  background-color: #f9f9f9;
+  border-radius: .625rem;
+  padding: 1.25rem;
+  box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, 0.1);
+}
+
+.forecastTitle {
+  margin: 0 0 1.25rem 0;
+  color: #333;
+}
+
+.forecastDays {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+  gap: .9375rem;
+}
+
+.forecastDay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .9375rem;
+  background-color: #fff;
+  border-radius: .3125rem;
+}
+
+.dayName {
+  margin: 0 0 .625rem 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.forecastIcon {
+  width: 3.125rem;
+  height: 3.125rem;
+  margin-bottom: .625rem;
+}
+
+.temps {
+  display: flex;
+  gap: .625rem;
+}
+
+.maxTemp {
+  font-weight: bold;
+  color: #333;
+}
+
+.minTemp {
+  color: #666;
+}
+
+.condition {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: #666;
+  font-weight: 500;
+}

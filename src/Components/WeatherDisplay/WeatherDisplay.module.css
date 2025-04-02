@@ -1,0 +1,72 @@
+.weatherContainer {
+    background-color: #f9f9f9;
+    border-radius: .625rem;
+    padding: 1.25rem;
+    margin-bottom: 1.875rem;
+    box-shadow: 0 .125rem .3125rem rgba(0,0,0,0.1);
+  }
+  
+  .location {
+    margin: 0 0 .9375rem 0;
+    color: #333;
+  }
+  
+  .weatherMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+  }
+  
+  .temperature {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .tempValue {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .tempUnit {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  .weatherIcon img {
+    width: 5rem;
+    height: 5rem;
+  }
+  
+  .condition {
+    margin: .3125rem 0 0 0;
+    text-align: center;
+    color: #666;
+  }
+  
+  .weatherDetails {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .9375rem;
+  }
+  
+  .detailItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .625rem;
+    background-color: #fff;
+    border-radius: .3125rem;
+  }
+  
+  .detailItem span:first-child {
+    font-size: .875rem;
+    color: #666;
+    margin-bottom: .3125rem;
+  }
+  
+  .detailItem span:last-child {
+    font-weight: bold;
+    color: #333;
+  }
