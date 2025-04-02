@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import SearchBar from './components/SearchBar/SearchBar.jsx';
-import WeatherDisplay from './components/WeatherDisplay/WeatherDisplay.jsx';
 import styles from './App.module.css';
 import Forecast from './Components/Forecast/Forecast';
+import SearchBar from './Components/SearchBar/SearchBar';
+import WeatherDisplay from './Components/WeatherDisplay/WeatherDisplay';
 
 function App() {
   // State management ===================================================>
