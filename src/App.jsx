@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import SearchBar from './components/SearchBar/SearchBar';
-import WeatherDisplay from './components/WeatherDisplay/WeatherDisplay';
-import Forecast from './components/Forecast/Forecast';
+import SearchBar from './components/SearchBar/SearchBar.jsx';
+import WeatherDisplay from './components/WeatherDisplay/WeatherDisplay.jsx';
+import Forecast from './components/Forecast/Forecast.jsx';
 import styles from './App.module.css';
 
 function App() {
